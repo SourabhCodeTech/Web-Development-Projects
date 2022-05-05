@@ -1,0 +1,15 @@
+#table {
+    display: flex;
+    justify-content: space-between;
+    font-size: 34px;
+    color: white;
+    font-family: cursive;
+}
+
+body {
+    background: #000;
+}
+
+#none {
+    display: none;
+}

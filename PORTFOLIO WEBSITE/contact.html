@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Page!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <!-- Sourabh Gautam -->
+            <nav>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./project.html">My Projects</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact Me!</a></li>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="toggle">
+                <div style="font-size: 23px;" id="hamburger" class="hamburger">🌈</div>
+            </div>
+            <div class="contactform">
+                <h1>Contact Me!</h1>
+                <form>
+                    <div>
+                        <label for="clientname" class="form-label">Name</label>
+                        <input type="text" id="clientname" class="form-input">
+                    </div>
+                    <div>
+                        <label for="clientemail" class="form-label">Email Address</label>
+                        <input type="email" id="clientemail" class="form-input">
+                        <p class="form-text">We'll never Share your E-mail & Phone with anyone else.</p>
+                    </div>
+                    <div>
+                        <label for="clientphone" class="form-label">Phone Number</label>
+                        <input type="number" id="clientphone" class="form-input">
+                    </div>
+                    <div>
+                        <label for="message" class="form-label">Message</label>
+                        <div type="text" id="message" class="form-input" style="height: 22vh; overflow-x: auto;"
+                            contenteditable="true">
+                        </div>
+                    </div>
+                    <button class="btn btn-sm">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
